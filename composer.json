@@ -1,0 +1,35 @@
+{
+    "name": "bravo3/spa-bundle",
+    "type": "library",
+    "description": "Symfony 2 bundle to create a SPA web application",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jordon Scott",
+            "email": "jordon@novatek.com.au"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": ["src/"]
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "": ["tests/"]
+        }
+    },
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "suggest": {
+    },
+    "config": {
+        "bin-dir": "bin",
+        "preferred-install": "dist"
+    },
+    "extra": {
+    },
+    "scripts": {
+    }
+}

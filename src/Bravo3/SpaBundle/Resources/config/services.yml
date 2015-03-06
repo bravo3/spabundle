@@ -1,0 +1,5 @@
+services:
+    spa.renderer:
+        class: Bravo3\SpaBundle\Services\SpaRenderer
+        arguments: [@templating, @twig, @request]
+        scope: request
