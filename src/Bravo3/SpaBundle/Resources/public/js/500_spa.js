@@ -180,7 +180,7 @@ var Spa = (function($)
             });
 
             // Completed callback
-            if (done !== undefined) {
+            if (done) {
                 done();
             }
 
@@ -352,7 +352,7 @@ var Spa = (function($)
     /**
      * Reload the current page
      *
-     * @param {bool} maintain_scroll_pos Set to true to move the scroll pos back where it was before navigating
+     * @param {boolean} maintain_scroll_pos Set to true to move the scroll pos back where it was before navigating
      */
     this.reloadCurrentPage = function(maintain_scroll_pos)
     {
